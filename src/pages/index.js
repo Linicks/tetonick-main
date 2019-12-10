@@ -29,23 +29,22 @@ const IndexPage = () => (
         <FlexGridItem float='left' marginTop="1.5rem">
           <center><H3>Earn Passive Income!</H3></center>
           <Paragraph2>
-            Make the most of your "Proof Of Stake" crypto currancies, and stake them with our
+            Make the most of your "Proof Of Stake" crypto currencies, and stake them with our
             professional staking services.  Our stake pools provide you with a reliable
             business partner that delivers a great return on your investment.  Our moderate fees
-            give you maximum returns while giving us an oppertunity to provide above average service.
+            give you maximum returns while giving us an opportunity to provide above average service.
             Please select from one of our current stake pools to start earning today.
           </Paragraph2>
 
           <center><H3>Shelly Incentivized Testnet </H3></center>
           <Paragraph2>
-            Our current stakepool is part of the Cardano blockchain development phase called "Shelly".  This phase
-            is focused on the decentralization of the blockchain, and adds the important staking features outlined the the Ouroboros protocol.
-            This is an early phase of the development of Cardano, but the rewards are very real.  If you are particpating
-            in the the Incentivized Test Network, and would like to stake your ADA, we would love to provide you with
-            a great stake pool.  You can find the staking details on their website dedicated to the
+            Our current stake pool is part of the Cardano blockchain development phase called "Shelly". This phase
+            is focused on the decentralization of the blockchain, and adds the important staking features outlined
+            the the Ouroboros protocol.  This is an early phase of the development of Cardano, but the rewards are
+            very real. If you are participating in the the Incentivized Test Network, and would like to stake your ADA,
+            we would love to provide you with a great stake pool. You can find the staking details on their website dedicated to the
           <StyledLink href="https://staking.cardano.org/" target="_blank"> Shelly Incentivized Testnet </StyledLink>.
           </Paragraph2>
-
 
         </FlexGridItem>
 
@@ -56,8 +55,7 @@ const IndexPage = () => (
             title="Cardano - ADA Stake Pool"
           >
             <StyledBody>
-              Just like the adventurous prospecorts of the old west, this stake pool will
-              bring home the ADA.
+              Just like the adventurous prospectors of the old west, this stake pool will bring home the ADA.
           </StyledBody>
 
             <ul style={{
@@ -70,7 +68,6 @@ const IndexPage = () => (
               <li>Our Stake Pool FEE: 7%</li>
               <li>Your ROI: 93% Of stake rewards.</li>
             </ul>
-
           </Card>
         </FlexGridItem>
       </FlexGrid>
