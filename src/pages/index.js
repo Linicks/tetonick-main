@@ -14,7 +14,6 @@ import { StyledLink } from "baseui/link";
 
 import oldminer from "../images/old-miner.jpg";
 
-
 const IndexPage = () => (
 
   <Layout>
@@ -39,7 +38,7 @@ const IndexPage = () => (
           <center><H3>Shelly Incentivized Testnet </H3></center>
           <Paragraph2>
             Our current stake pool is part of the Cardano blockchain development phase called "Shelly". This phase
-            is focused on the decentralization of the blockchain, and adds the important staking features outlined
+            is focused on the decentralization of the blockchain, and adds the important staking features outlined 
             the the Ouroboros protocol.  This is an early phase of the development of Cardano, but the rewards are
             very real. If you are participating in the the Incentivized Test Network, and would like to stake your ADA,
             we would love to provide you with a great stake pool. You can find the staking details on their website dedicated to the
@@ -48,14 +47,14 @@ const IndexPage = () => (
 
         </FlexGridItem>
 
-        <FlexGridItem paddingLeft="6%" >
+          <FlexGridItem paddingLeft="6%" >
           <Card
             overrides={{ Root: { style: { width: '328px' } } }}
             headerImage={oldminer}
             title="Cardano - ADA Stake Pool"
           >
-            <StyledBody>
-              Just like the adventurous prospectors of the old west, this stake pool will bring home the ADA.
+          <StyledBody>
+            Just like the adventurous prospectors of the old west, this stake pool will bring home the ADA.
           </StyledBody>
 
             <ul style={{
@@ -69,8 +68,8 @@ const IndexPage = () => (
               <li>Your ROI: 93% Of stake rewards.</li>
             </ul>
           </Card>
-        </FlexGridItem>
-      </FlexGrid>
+          </FlexGridItem>
+        </FlexGrid>
 
       <Paragraph3 backgroundColor="#de6356" padding="7px" marginTop='1.6rem' >
         Important Note! This website and Cardano itself is under heavy development.  Please use them at your own risk.  If you need help, Please

@@ -4,6 +4,8 @@ import React from "react"
 
 import logo from "../images/tetonick-logo5.png";
 
+import { Block } from 'baseui/block';
+
 import {
   HeaderNavigation,
   ALIGN,
@@ -11,6 +13,8 @@ import {
   StyledNavigationItem
 } from "baseui/header-navigation";
 import { StyledLink } from "baseui/link";
+
+export const HEADER_BREAKPOINT = '@media screen and (min-width: 607px)';
 
 const Header = ({ siteTitle }) => (
   <header
@@ -27,7 +31,6 @@ const Header = ({ siteTitle }) => (
         padding: `0 0.55rem 0 0`,
       }}
     >
-
       <HeaderNavigation>
 
         <StyledNavigationList $align={ALIGN.left}>
@@ -39,34 +42,86 @@ const Header = ({ siteTitle }) => (
           </StyledNavigationItem>
         </StyledNavigationList>
 
+        <Block
+          $as="a"
+          overrides={{
+            Block: {
+              style: {
+                display: 'none',
+                [HEADER_BREAKPOINT]: {
+                  display: 'block',
+                },
+              },
+            },
+          }}
 
-        <StyledNavigationList $align={ALIGN.center} />
+          width="100%"
+          padding="1.75rem 0.55rem 0 0"
 
+        >
 
-        <StyledNavigationList $align={ALIGN.right}>
+          <StyledNavigationList $align={ALIGN.right}>
 
-          <StyledNavigationItem>
-            <StyledLink href="/"> Home </StyledLink>
-          </StyledNavigationItem>
+            <StyledNavigationItem>
+              <StyledLink href="/"> Home </StyledLink>
+            </StyledNavigationItem>
 
-          <StyledNavigationItem>
-            <StyledLink href="/learn/"> Learn  </StyledLink>
-          </StyledNavigationItem>
+            <StyledNavigationItem>
+              <StyledLink href="/learn/"> Learn  </StyledLink>
+            </StyledNavigationItem>
 
-          <StyledNavigationItem>
-            <StyledLink href="/about/"> About Us </StyledLink>
-          </StyledNavigationItem>
-          <StyledNavigationItem>
-            
-          </StyledNavigationItem>
+            <StyledNavigationItem>
+              <StyledLink href="/about/"> About </StyledLink>
+            </StyledNavigationItem>
 
-        </StyledNavigationList>
+            <StyledNavigationItem></StyledNavigationItem>
+
+          </StyledNavigationList>
+
+        </Block>
 
       </HeaderNavigation>
 
     </div>
 
-  </header>
+    <Block
+      $as="a"
+      overrides={{
+        Block: {
+          style: {
+            display: 'block',
+            [HEADER_BREAKPOINT]: {
+              display: 'none',
+            },
+          },
+        },
+      }}
+
+      width="100%"
+      padding="1.55rem 0.0rem 0.55rem 0.0rem "
+      backgroundColor="#eeeeee"
+    >
+
+      <StyledNavigationList $align={ALIGN.center}>
+
+        <StyledNavigationItem>
+          <StyledLink href="/"> Home </StyledLink>
+        </StyledNavigationItem>
+
+        <StyledNavigationItem>
+          <StyledLink href="/learn/"> Learn  </StyledLink>
+        </StyledNavigationItem>
+
+        <StyledNavigationItem>
+          <StyledLink href="/about/"> About </StyledLink>
+        </StyledNavigationItem>
+
+        <StyledNavigationItem></StyledNavigationItem>
+
+      </StyledNavigationList>
+    </Block>
+
+  </header >
 )
 
 Header.propTypes = {
@@ -76,6 +131,5 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 }
-
 
 export default Header
