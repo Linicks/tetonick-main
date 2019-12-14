@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Paragraph2, Paragraph3, H3 } from "baseui/typography"
+import { Paragraph2, Paragraph3, H3} from "baseui/typography"
 
 import {
   Card,
@@ -49,9 +49,10 @@ const IndexPage = () => (
 
           <FlexGridItem paddingLeft="6%" >
           <Card
-            overrides={{ Root: { style: { width: '328px' } } }}
+            overrides={{ Root: { style: { width: '328px', float: 'right', padding: '.3rem'} } }}
             headerImage={oldminer}
             title="Cardano - ADA Stake Pool"
+           
           >
           <StyledBody>
             Just like the adventurous prospectors of the old west, this stake pool will bring home the ADA.
@@ -62,21 +63,34 @@ const IndexPage = () => (
               padding: `0px 0.8rem 0.80rem`,
               paddingTop: 0,
             }}>
-              <li>Our Stake Pool Ticker Symbole: TTNK </li>
-              <li>Our Stake Pool ID: TBA!</li>
-              <li>Our Stake Pool FEE: 7%</li>
-              <li>Your ROI: 93% Of stake rewards.</li>
+              <li>Stake Pool Ticker Symbol: TTNK </li>
+              <li>Stake Pool ID: TBA!</li>
+              <li>A Very Low Stake Pool FEE: 7%</li>
+              <li><StyledLink href="https://staking.cardano.org/en/calculator/" target="_blank"> Rewards Calculator </StyledLink></li>
+              
             </ul>
           </Card>
           </FlexGridItem>
         </FlexGrid>
 
-      <Paragraph3 backgroundColor="#de6356" padding="7px" marginTop='1.6rem' >
-        Important Note! This website and Cardano itself is under heavy development.  Please use them at your own risk.  If you need help, Please
-        reach out to us or others in the Cardano ecosystem.  It's important that you understand that there are scammers trying to
-        steal your ADA.  NO Cardano stakepools require you to give them your ADA to get rewards.
-      </Paragraph3>
 
+      <p></p>
+
+      <center>
+        <Card
+        overrides={{ Root: { style: { width: '90%', padding: '0px', backgroundColor: "#de6356" } } }}
+              padding=".05rem"
+              align="left"
+        >
+        <Paragraph3>
+      
+          <b>Important Note!</b> This website and Cardano itself are under heavy development.  <i>Please use them at your own risk.</i>  If you need help, you should
+          reach out to us or others in the <StyledLink href="https://https://www.cardano.org/en/home/" target="_blank"> Cardano </StyledLink> ecosystem.  It's important that you understand that there are scammers trying to
+          steal your ADA.  NO Cardano stakepools require you to give them your ADA to get rewards.
+        
+        </Paragraph3>
+        </Card>
+      </center>
     </Block>
 
   </Layout>
