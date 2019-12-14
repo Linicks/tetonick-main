@@ -74,11 +74,11 @@ const IndexPage = () => (
         </FlexGrid>
 
 
-      <p></p>
+      <p style={{height: "30px" }}></p>
 
       <center>
         <Card
-        overrides={{ Root: { style: { width: '90%', padding: '0px', backgroundColor: "#de6356" } } }}
+        overrides={{ Root: { style: { width: '100%', padding: '0px', backgroundColor: "#de6356", } } }}
               padding=".05rem"
               align="left"
         >
