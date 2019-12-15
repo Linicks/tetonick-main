@@ -40,7 +40,7 @@ const IndexPage = () => (
             Our current stake pool is part of the Cardano blockchain development phase called "Shelly". This phase
             is focused on the decentralization of the blockchain, and adds the important staking features outlined 
             the the Ouroboros protocol.  This is an early phase of the development of Cardano, but the rewards are
-            very real. If you are participating in the the Incentivized Test Network, and would like to stake your ADA,
+            very real. If you are participating in the Incentivized Test Network, and would like to stake your ADA,
             we would love to provide you with a great stake pool. You can find the staking details on their website dedicated to the
           <StyledLink href="https://staking.cardano.org/" target="_blank"> Shelly Incentivized Testnet </StyledLink>.
           </Paragraph2>
