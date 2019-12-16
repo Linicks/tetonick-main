@@ -64,7 +64,7 @@ const IndexPage = () => (
               paddingTop: 0,
             }}>
               <li>Stake Pool Ticker Symbol: TTNK </li>
-              <li>Stake Pool ID: TBA!</li>
+              <li>Stake Pool ID: 0f6afd2ab82372b870c1cfabd331238d9aefe30600e604e0933ae55ffa00d42b</li>
               <li>A Very Low Stake Pool FEE: 7%</li>
               <li><StyledLink href="https://staking.cardano.org/en/calculator/" target="_blank"> Rewards Calculator </StyledLink></li>
               
