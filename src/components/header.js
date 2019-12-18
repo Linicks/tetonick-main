@@ -36,7 +36,8 @@ const Header = ({ siteTitle }) => (
         <StyledNavigationList $align={ALIGN.left}>
           <StyledNavigationItem>
             <Link to="/">
-              <img src={logo} alt="Tetonick Logo" />
+              <img src={logo} alt="Tetonick Logo" width="100%"
+                height="auto"/>
             </Link>
 
           </StyledNavigationItem>
