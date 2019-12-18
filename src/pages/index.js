@@ -87,7 +87,7 @@ const IndexPage = () => (
           <Card
             overrides={{
               Root: {
-                style: { width: "350px", float: "right", padding: ".3rem" },
+                style: { width:"100%", height:"auto", float: "right", padding: ".3rem" },
               },
             }}
             headerImage={oldminer}
