@@ -12,7 +12,7 @@ const Learn = () => (
     <SEO title="Learn" />
 
     <Block marginTop="1.50rem" paddingLeft=".5rem" paddingRight=".5rem">
-      <H3>Crypto Currancy Staking </H3>
+      <H3>Crypto Currency Staking </H3>
       <Paragraph2>
         First generation crypto currencies like Bitcoin are based on a concept
         call proof of work. In a proof of work based blockchain, transactions
