@@ -46,7 +46,7 @@ const IndexPage = () => (
           </center>
           <Paragraph2>
             Our current stake pool is part of the Cardano blockchain development
-            phase called "Shelly". This phase is focused on the decentralization
+            phase called "Shelley". This phase is focused on the decentralization
             of the blockchain, and adds the important staking features outlined
             the the Ouroboros protocol. This is an early phase in the
             development of Cardano, but the rewards are very real.
@@ -75,7 +75,7 @@ const IndexPage = () => (
             <StyledNavigationItem>
               <StyledLink href="https://staking.cardano.org/" target="_blank">
                 {" "}
-                Shelly Incentivized Testnet{" "}
+                Shelley Incentivized Testnet{" "}
               </StyledLink>
             </StyledNavigationItem>
           </StyledNavigationList>
@@ -161,7 +161,7 @@ const IndexPage = () => (
               Cardano{" "}
             </StyledLink>{" "}
             ecosystem. It's important that you understand that there are
-            scammers trying to steal your ADA. NO Cardano stakepools require you
+            scammers trying to steal your ADA. NO Cardano stake pools require you
             to give them your ADA to get rewards.
           </Paragraph3>
         </Card>
