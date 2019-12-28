@@ -21,16 +21,16 @@ const Learn = () => (
         holding currencies like Bitcoin have no say in which network operator
         validates the transaction. This also leads to a certain level of
         centralization because proof of work based protocols take huge amounts
-        of resources of operate and are usually dominated by large companies.
+        of resources to operate and are usually dominated by just a few large companies.
       </Paragraph2>
 
       <Paragraph2>
-        In contrast to these first generation crypto currencies a much more
-        efficient and distributed method of securing a blockchain, called Proof
-        of Stake, has been developed. Proof of Stake protocols dramatically
+        In contrast to these first generation crypto currencies, a much more
+        efficient and distributed method of securing a blockchain has been developed, 
+        called Proof of Stake. Proof of Stake protocols dramatically
         improved the efficiency of securing the blockchain because they don't
         require massive data centers preforming useless calculations to operate
-        effectively. This new approach secures the blockchaing by randomly
+        effectively. This new approach secures the blockchain by randomly
         selecting miners or validators from a pool of operators based on the
         amount of digital currency that's been assigned to them. This process is
         called Staking, and has many advantages over proof of work based
