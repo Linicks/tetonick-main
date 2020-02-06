@@ -30,35 +30,29 @@ const IndexPage = () => (
       >
         <FlexGridItem float="left" marginTop="1.5rem">
           <center>
-            <H3>Earn Passive Income!</H3>
+            <H3>Earn Staking Rewards!</H3>
           </center>
           <Paragraph2>
             Make the most of your "Proof Of Stake" crypto currencies, and stake
-            them with our professional staking services. Our stake pools provide
-            you with a reliable business partner that delivers a great return on
-            your investment. Our moderate fees give you maximum returns while
-            giving us an opportunity to provide above average service. Please
-            select from one of our current stake pools to start earning today.
+            them with our quality staking services. Our stake pools provide
+            you with a reliable staking partner that delivers a great return on
+            your stake(ROS). We strive to provide you with the best staking experience possible.
+            Please select our Cardano stakepool, Tetonick - TTNK, and start getting your rewards today.
           </Paragraph2>
 
           <center>
             <H3>Incentivized Testnet </H3>
           </center>
           <Paragraph2>
-            Our current stake pool is part of the Cardano blockchain development
+            Our stake pool is part of the Cardano blockchain development
             phase called "Shelley". This phase is focused on the decentralization
             of the blockchain, and adds the important staking features outlined
             the the Ouroboros protocol. This is an early phase in the
             development of Cardano, but the rewards are very real.
           </Paragraph2>
           <Paragraph2>
-            If you are participating in the Incentivized Test Network, and would
-            like to stake your ADA, we would love to provide you with a great{" "}
-            <u>
-              Cardano stake pool, ticker symbol: <b> TTNK </b>
-            </u>
-            . You can find the Cardano-ADA staking details on their dedicated
-            website:
+            If you haven't herd of the "Cardano Incentivized Test Net", 
+            you can find out more on their dedicated website:            
           </Paragraph2>
 
           <div style={{ height: "20px" }}></div>
@@ -109,25 +103,17 @@ const IndexPage = () => (
                 Stake Pool Ticker Symbol: <b>TTNK</b>{" "}
               </li>
               <li>
+                ステークプールティッカーシンボル：<b>TTNK</b>{" "}
+              </li>
+              <li>
                 A Very Low Stake Pool Reward Fee: <b> 7% </b>
-                <div>
-                  Note: You receive <b>93%</b> of all pool rewards.
-                </div>
               </li>
 
               <li>
                 Stake Pool ID: <div style={{ height: "7px" }}></div>
                 0f6afd2ab82372b870c1cfabd331238d9aefe30600e604e0933ae55ffa00d42b
               </li>
-              <li>
-                <StyledLink
-                  href="https://staking.cardano.org/en/calculator/"
-                  target="_blank"
-                >
-                  {" "}
-                  $ Rewards Calculator{" "}
-                </StyledLink>
-              </li>
+
             </ul>
           </Card>
         </FlexGridItem>
